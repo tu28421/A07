@@ -6,32 +6,33 @@ body {
     border: 3px solid #931420; 
     background-color: #fffded; 
 }
+
 header img {
     float: left;
-    padding-left: 30px; 
+    padding-left: 30px;
     padding-right: 30px; 
 }
 
 header {
     border-bottom: 3px solid #931420; 
-    padding-top: 1.5em;
+    padding-top: 1.5em; 
     padding-bottom: 2em; 
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%); 
 }
 
 
 header h2, header h3 {
     text-indent: 0; 
-}
 
 main {
     clear: left;
-    padding-left: 30px; 
-    padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px; 
 }
 
 main h1 {
     border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
+    border-bottom: 3px solid #931420; 
 }
 
 footer {
@@ -40,4 +41,15 @@ footer {
 
 footer p {
     color: white; 
+}
+
+blockquote {
+    font-style: italic;
+}
+
+main h2 {
+    border: 4px double #931420; 
+    border-radius: 10px; 
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
